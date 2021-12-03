@@ -1,0 +1,93 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.body-content{
+	width: 70%;
+	height: 80%;
+	position: absolute;
+	background-color: plum;
+	margin-top: 5%;
+	margin-left: 15%;
+	background-image: url('https://inbusiness.kz/images/small/37/images/bNaJDgVS.jpg');
+	background-size: 100%;
+}
+.weather-content{
+	width: 60%;
+	height: 100%;
+	display: inline-block;
+	position: absolute;
+	color: #fff;
+}
+.weather-content h1{
+	display: inline-block;
+	font-size: 70px;
+}
+.weather-content__info{
+	display: inline-block;
+}
+.weather-content h2{
+	font-size: 30px;
+}
+.date-info{
+	font-size: 13px;
+}
+.weather-content__txt{
+	bottom: 10%;
+	left: 10%;
+	position: absolute;
+	font-family:  Snell Roundhand;
+}
+.city-content{
+	right: 0;
+	width: 39.5%;
+	height: 100%;
+	display: inline-block;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.city-location{
+	width: 80%;
+	height: 50%;
+	margin-left: 10%;
+	border-bottom: 1px solid #807e7e;
+}
+.txt-location{
+	color: #bfbfbf;
+	margin-top: 10%;
+	padding-bottom: 2%;
+	margin-bottom: 2%;
+	border-bottom: 1px solid #807e7e;
+
+}
+.name-location{
+	overflow: scroll;
+	height: 65%;
+	overflow-x:hidden;
+	margin-top: 8%;
+	margin-bottom: 3%;
+}
+.name-location ul li{
+	color: #bfbfbf;
+	padding-top: 5%;
+	padding-bottom: 3%;
+	cursor: pointer;
+}
+.name-location ul li:hover{
+	color: #c7c7c7;
+	border-bottom: 1px solid #bfbfbf;
+}
+.name-location::-webkit-scrollbar{
+	width: 3px;
+	background-color: #696969;
+	border-radius: 30px;
+}
+.name-location::-webkit-scrollbar-thumb{
+	background-color: #a6a6a6;
+	border-radius: 30px;
+}
+.weather-details{
+	width: 80%;
+	height: 48%;
+	margin-left: 10%;
+}
